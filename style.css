@@ -1,0 +1,48 @@
+@font-face {
+    font-family: abc;
+    src: url(fonts/LibreBaskerville-Bold.ttf);
+}
+@font-face {
+    font-family: xyz;
+    src: url(fonts/EduNSWACTHandPre-VariableFont_wght.ttf);
+}
+body{
+    padding: 8px;
+}
+.first{
+    font-family: abc;
+    color: blue;
+    font-size: 40px;
+    text-shadow: -8px -8px 3px rgba(0, 0, 0,1);
+    margin: 0px;
+}
+.second{
+    color: rgb(12, 136, 214);
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.four{
+    text-decoration: none;
+}
+.three{
+    font-family: sans-serif;
+}
+.five{
+    font-size: 24px;
+    margin: 0px;
+    color: rgb(12, 136, 214);
+}
+.six{
+    font-family: sans-serif;
+}
+.credits{
+    font-style: italic;
+    text-align: right;
+}
+.zero{
+    font-family: xyz;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: underline;
+}
